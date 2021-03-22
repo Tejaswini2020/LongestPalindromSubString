@@ -5,7 +5,6 @@ public class LongestPalindromeSubString {
         if (start > end) {
             return 0;
         }
-
         if (start == end) {
             return 1;
         }
@@ -25,7 +24,7 @@ public class LongestPalindromeSubString {
         //String str = "bdb";
         //String str ="babad";
         String str = "cbbd";
-        System.out.println("Longest Palindrome SubString in given String : ");
+//        System.out.println("Longest Palindrome SubString in given String : ");
         System.out.println(LongestPalindromeSubString.lpSubstring(str, 0, str.length() - 1));
     }
 }
